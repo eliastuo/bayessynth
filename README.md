@@ -1,6 +1,6 @@
 # *bayessynth:* BSC Models in Python
 
-The bayessynth package is a Python implementation of the Bayesian Synthetic Control (BSC). BSC is a probabilistic method for quantitative social science, developed in [Tuomaala (2019)](https://arxiv.org/abs/1910.06106 "Arxiv preprint")[^fn]. It includes tools to estimate the BSC model with Markov Chain Monte Carlo (MCMC) sampling and to analyze and visualize the results.
+The bayessynth package is a Python implementation of the Bayesian Synthetic Control (BSC). BSC is a probabilistic method for quantitative social science, developed in [Tuomaala (2019)](https://arxiv.org/abs/1910.06106 "Arxiv preprint")[1]. It includes tools to estimate the BSC model with Markov Chain Monte Carlo (MCMC) sampling and to analyze and visualize the results.
 
 ## Documentation
 
@@ -51,4 +51,4 @@ result_summary = bs.summarize_ppc(target_country, data, trace, factors)
 bs.plot(result_summary, cutoff_year, target_country, output='display')
 ```
 
-[^fn]: Elias Tuomaala. (2019) "The Bayesian Synthetic Control: Improved Counterfactual Estimation in the Social Sciences through Probabilistic Modeling." [Arxiv Open Access](https://arxiv.org/abs/1910.06106 "The Bayesian Synthetic Control").
+[1]: Elias Tuomaala. (2019) "The Bayesian Synthetic Control: Improved Counterfactual Estimation in the Social Sciences through Probabilistic Modeling." [Arxiv Open Access](https://arxiv.org/abs/1910.06106 "The Bayesian Synthetic Control").
