@@ -20,7 +20,7 @@ Email: [mail@eliastuomaala.com](mailto:mail@eliastuomaala.com)
 
 ## License
 
-The bayessynth copyright belongs to Elias Tuomaala (2020). It is released under the MIT License.
+The software is released under the MIT License.
 
 ## Example
 ```
